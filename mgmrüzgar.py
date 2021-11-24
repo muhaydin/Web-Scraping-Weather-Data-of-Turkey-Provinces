@@ -9,8 +9,7 @@ import time
 import os
 from  selenium import webdriver
 import pandas as pd
-os.chdir("C:/Users/muhammet.aydin/Desktop")
-driver_path = "C:/Users/muhammet.aydin/Desktop/chromedriver.exe"
+driver_path = os.getcwd() + "\chromedriver.exe"
 driver = webdriver.Chrome(executable_path=driver_path)
 
 link='https://www.mgm.gov.tr/tahmin/il-ve-ilceler.aspx?il='
