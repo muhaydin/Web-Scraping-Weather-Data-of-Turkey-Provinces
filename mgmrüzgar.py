@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Nov 23 13:51:46 2021
-
-@author: muhammet.aydin
-"""
 
 import time
 import os
