@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Nov 23 10:50:00 2021
-
-@author: muhammet.aydin
-"""
 
 from  selenium import webdriver
 import pandas as pd
