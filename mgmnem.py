@@ -24,7 +24,7 @@ iller= ["Adana", "Adıyaman", "Afyonkarahisar", "Ağrı", "Aksaray", "Amasya", "
                 "Şanlıurfa", "Siirt", "Sinop", "Sivas", "Şırnak", "Tekirdağ", "Tokat", "Trabzon", "Tunceli", "Uşak", "Van", 
                 "Yalova", "Yozgat", "Zonguldak"]
 
-# iller= ["Adana", "Adıyaman"]
+
 url = [link + str(i) for i in iller]    
 
 
