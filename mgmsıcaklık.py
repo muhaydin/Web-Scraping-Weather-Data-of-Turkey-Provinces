@@ -9,10 +9,9 @@ from  selenium import webdriver
 import pandas as pd
 import os
 import time
-os.chdir("C:/Users/muhammet.aydin/Desktop")
-driver_path = "C:/Users/muhammet.aydin/Desktop/chromedriver.exe"
+driver_path = os.getcwd() + "\chromedriver.exe"
 driver = webdriver.Chrome(executable_path=driver_path)
-# driver.maximize_window()
+
 link='https://www.mgm.gov.tr/tahmin/il-ve-ilceler.aspx?il='
 iller= ["Adana", "Adıyaman", "Afyonkarahisar", "Ağrı", "Aksaray", "Amasya", "Ankara", "Antalya", "Ardahan", 
                "Artvin", "Aydın", "Balıkesir", "Bartın", "Batman", "Bayburt", "Bilecik", "Bingöl", "Bitlis", "Bolu", 
